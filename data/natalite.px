@@ -1,0 +1,550 @@
+CHARSET="ANSI";
+AXIS-VERSION="2010";
+CODEPAGE="iso-8859-15";
+LANGUAGE="de";
+LANGUAGES="de","fr","it","en";
+CREATION-DATE="20140403 09:00";
+DECIMALS=2;
+SHOWDECIMALS=0;
+MATRIX="px-x-0102020204_111";
+SUBJECT-CODE="01";
+SUBJECT-AREA="01 - Bevölkerung";
+SUBJECT-AREA[fr]="01 - Population";
+SUBJECT-AREA[it]="01 - Popolazione";
+SUBJECT-AREA[en]="01 - Population";
+DESCRIPTION="Lebendgeburten nach Monat und Geburtenhäufigkeit seit 1803";
+DESCRIPTION[fr]="Naissances vivantes par mois et fécondité depuis 1803";
+DESCRIPTION[it]="Nati vivi per mese e fecondità dal 1803";
+DESCRIPTION[en]="Live births per month and fertility since 1803";
+TITLE="Lebendgeburten nach Monat und Geburtenhäufigkeit seit 1803";
+TITLE[fr]="Naissances vivantes par mois et fécondité depuis 1803";
+TITLE[it]="Nati vivi per mese e fecondità dal 1803";
+TITLE[en]="Live births per month and fertility since 1803";
+DESCRIPTIONDEFAULT=YES;
+CONTENTS="Lebendgeburten nach Monat und Geburtenhäufigkeit seit 1803";
+CONTENTS[fr]="Naissances vivantes par mois et fécondité depuis 1803";
+CONTENTS[it]="Nati vivi per mese e fecondità dal 1803";
+CONTENTS[en]="Live births per month and fertility since 1803";
+UNITS="Geburt";
+UNITS[fr]="Naissance";
+UNITS[it]="Nati";
+UNITS[en]="Birth";
+STUB="Jahr";
+STUB[fr]="Année";
+STUB[it]="Anno";
+STUB[en]="Year";
+HEADING="Demografisches Merkmal und Indikator";
+HEADING[fr]="Caractéristique démographique et indicateur";
+HEADING[it]="Caratteristica demografia ed indicatore";
+HEADING[en]="Demographic characteristic and indicator";
+VALUES("Jahr")="1803","1804","1805","1806","1807","1808","1809","1810","1811","1812","1813","1814",
+"1815","1816","1817","1818","1819","1820","1821","1822","1823","1824","1825","1826","1827","1828",
+"1829","1830","1831","1832","1833","1834","1835","1836","1837","1838","1839","1840","1841","1842",
+"1843","1844","1845","1846","1847","1848","1849","1850","1851","1852","1853","1854","1855","1856",
+"1857","1858","1859","1860","1861","1862","1863","1864","1865","1866","1867","1868","1869","1870",
+"1871","1872","1873","1874","1875","1876","1877","1878","1879","1880","1881","1882","1883","1884",
+"1885","1886","1887","1888","1889","1890","1891","1892","1893","1894","1895","1896","1897","1898",
+"1899","1900","1901","1902","1903","1904","1905","1906","1907","1908","1909","1910","1911","1912",
+"1913","1914","1915","1916","1917","1918","1919","1920","1921","1922","1923","1924","1925","1926",
+"1927","1928","1929","1930","1931","1932","1933","1934","1935","1936","1937","1938","1939","1940",
+"1941","1942","1943","1944","1945","1946","1947","1948","1949","1950","1951","1952","1953","1954",
+"1955","1956","1957","1958","1959","1960","1961","1962","1963","1964","1965","1966","1967","1968",
+"1969","1970","1971","1972","1973","1974","1975","1976","1977","1978","1979","1980","1981","1982",
+"1983","1984","1985","1986","1987","1988","1989","1990","1991","1992","1993","1994","1995","1996",
+"1997","1998","1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010",
+"2011","2012","2013","2014","2015","2016","2017","2018","2019","2020";
+VALUES[fr]("Année")="1803","1804","1805","1806","1807","1808","1809","1810","1811","1812","1813",
+"1814","1815","1816","1817","1818","1819","1820","1821","1822","1823","1824","1825","1826","1827",
+"1828","1829","1830","1831","1832","1833","1834","1835","1836","1837","1838","1839","1840","1841",
+"1842","1843","1844","1845","1846","1847","1848","1849","1850","1851","1852","1853","1854","1855",
+"1856","1857","1858","1859","1860","1861","1862","1863","1864","1865","1866","1867","1868","1869",
+"1870","1871","1872","1873","1874","1875","1876","1877","1878","1879","1880","1881","1882","1883",
+"1884","1885","1886","1887","1888","1889","1890","1891","1892","1893","1894","1895","1896","1897",
+"1898","1899","1900","1901","1902","1903","1904","1905","1906","1907","1908","1909","1910","1911",
+"1912","1913","1914","1915","1916","1917","1918","1919","1920","1921","1922","1923","1924","1925",
+"1926","1927","1928","1929","1930","1931","1932","1933","1934","1935","1936","1937","1938","1939",
+"1940","1941","1942","1943","1944","1945","1946","1947","1948","1949","1950","1951","1952","1953",
+"1954","1955","1956","1957","1958","1959","1960","1961","1962","1963","1964","1965","1966","1967",
+"1968","1969","1970","1971","1972","1973","1974","1975","1976","1977","1978","1979","1980","1981",
+"1982","1983","1984","1985","1986","1987","1988","1989","1990","1991","1992","1993","1994","1995",
+"1996","1997","1998","1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009",
+"2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020";
+VALUES[it]("Anno")="1803","1804","1805","1806","1807","1808","1809","1810","1811","1812","1813",
+"1814","1815","1816","1817","1818","1819","1820","1821","1822","1823","1824","1825","1826","1827",
+"1828","1829","1830","1831","1832","1833","1834","1835","1836","1837","1838","1839","1840","1841",
+"1842","1843","1844","1845","1846","1847","1848","1849","1850","1851","1852","1853","1854","1855",
+"1856","1857","1858","1859","1860","1861","1862","1863","1864","1865","1866","1867","1868","1869",
+"1870","1871","1872","1873","1874","1875","1876","1877","1878","1879","1880","1881","1882","1883",
+"1884","1885","1886","1887","1888","1889","1890","1891","1892","1893","1894","1895","1896","1897",
+"1898","1899","1900","1901","1902","1903","1904","1905","1906","1907","1908","1909","1910","1911",
+"1912","1913","1914","1915","1916","1917","1918","1919","1920","1921","1922","1923","1924","1925",
+"1926","1927","1928","1929","1930","1931","1932","1933","1934","1935","1936","1937","1938","1939",
+"1940","1941","1942","1943","1944","1945","1946","1947","1948","1949","1950","1951","1952","1953",
+"1954","1955","1956","1957","1958","1959","1960","1961","1962","1963","1964","1965","1966","1967",
+"1968","1969","1970","1971","1972","1973","1974","1975","1976","1977","1978","1979","1980","1981",
+"1982","1983","1984","1985","1986","1987","1988","1989","1990","1991","1992","1993","1994","1995",
+"1996","1997","1998","1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009",
+"2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020";
+VALUES[en]("Year")="1803","1804","1805","1806","1807","1808","1809","1810","1811","1812","1813",
+"1814","1815","1816","1817","1818","1819","1820","1821","1822","1823","1824","1825","1826","1827",
+"1828","1829","1830","1831","1832","1833","1834","1835","1836","1837","1838","1839","1840","1841",
+"1842","1843","1844","1845","1846","1847","1848","1849","1850","1851","1852","1853","1854","1855",
+"1856","1857","1858","1859","1860","1861","1862","1863","1864","1865","1866","1867","1868","1869",
+"1870","1871","1872","1873","1874","1875","1876","1877","1878","1879","1880","1881","1882","1883",
+"1884","1885","1886","1887","1888","1889","1890","1891","1892","1893","1894","1895","1896","1897",
+"1898","1899","1900","1901","1902","1903","1904","1905","1906","1907","1908","1909","1910","1911",
+"1912","1913","1914","1915","1916","1917","1918","1919","1920","1921","1922","1923","1924","1925",
+"1926","1927","1928","1929","1930","1931","1932","1933","1934","1935","1936","1937","1938","1939",
+"1940","1941","1942","1943","1944","1945","1946","1947","1948","1949","1950","1951","1952","1953",
+"1954","1955","1956","1957","1958","1959","1960","1961","1962","1963","1964","1965","1966","1967",
+"1968","1969","1970","1971","1972","1973","1974","1975","1976","1977","1978","1979","1980","1981",
+"1982","1983","1984","1985","1986","1987","1988","1989","1990","1991","1992","1993","1994","1995",
+"1996","1997","1998","1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009",
+"2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020";
+VALUES("Demografisches Merkmal und Indikator")="Lebendgeburten - Total","Lebendgeburten im Januar",
+"Lebendgeburten im Februar","Lebendgeburten im März","Lebendgeburten im April",
+"Lebendgeburten im Mai","Lebendgeburten im Juni","Lebendgeburten im Juli",
+"Lebendgeburten im August","Lebendgeburten im September","Lebendgeburten im Oktober",
+"Lebendgeburten im November","Lebendgeburten im Dezember","Geburtenüberschuss - Total",
+"Geburtenüberschuss männlich","Geburtenüberschuss weiblich","Lebendgeburten je 1000 Einwohner",
+"Durchschnittsalter der Mutter bei der Geburt",
+"Durchschnittsalter der verheirateten Mutter bei der Geburt",
+"Durchschnittsalter der nicht verheirateten Mutter bei der Geburt",
+"Durchschnittsalter der verheirateten Mutter bei der Erstgeburt","Zusammengefasste Geburtenziffer",
+"Zusammengefasste Geburtenziffer - Schweizerische Mutter",
+"Zusammengefasste Geburtenziffer - Ausländische Mutter";
+VALUES[fr]("Caractéristique démographique et indicateur")="Naissances vivantes - Total",
+"Naissances vivantes en janvier","Naissances vivantes en février","Naissances vivantes en mars",
+"Naissances vivantes en avril","Naissances vivantes en mai","Naissances vivantes en juin",
+"Naissances vivantes en juillet","Naissances vivantes en août","Naissances vivantes en septembre",
+"Naissances vivantes en octobre","Naissances vivantes en novembre",
+"Naissances vivantes en décembre","Accroissement naturel","Accroissement naturel masculin",
+"Accroissement naturel féminin","Naissances vivantes pour 1000 habitants",
+"Age moyen de la mère à la naissance de l'enfant",
+"Age moyen de la mère mariée à la naissance de l'enfant",
+"Age moyen de la mère pas mariée à la naissance de l'enfant",
+"Age moyen de la mère mariée à la naissance du 1er enfant","Indicateur conjoncturel de fécondité",
+"Indicateur conjoncturel de fécondité - Mère suisse",
+"Indicateur conjoncturel de fécondité - Mère étrangère";
+VALUES[it]("Caratteristica demografia ed indicatore")="Nati vivi - Totale","Nati vivi in gennaio",
+"Nati vivi in febbraio","Nati vivi in marzo","Nati vivi in aprile","Nati vivi in maggio",
+"Nati vivi in giugno","Nati vivi in luglio","Nati vivi in agosto","Nati vivi in settembre",
+"Nati vivi in ottobre","Nati vivi in novembre","Nati vivi in dicembre","Incremento naturale",
+"Incremento naturale maschile","Incremento naturale femminile","Nati vivi ogni 1000 abitanti",
+"Età media della madre alla nascita del figlio",
+"Età media della madre sposata alla nascita del figlio",
+"Età media della madre non sposata alla nascita del figlio",
+"Età media della madre sposata alla nascita del primo figlio","Indicatore sintetico di fecondità",
+"Indicatore sintetico di fecondità - Madre svizzera",
+"Indicatore sintetico di fecondità - Madre straniera";
+VALUES[en]("Demographic characteristic and indicator")="Live births - Total",
+"Live births in January","Live births in February","Live births in March","Live births in April",
+"Live births in May","Live births in June","Live births in July","Live births in August",
+"Live births in September","Live births in October","Live births in November",
+"Live births in December","Natural change - Total","Natural change - Male",
+"Natural change - Female","Births per 1000 population",
+"Average age of mothers at the birth of their child",
+"Average age of married mothers at the birth of their child",
+"Average age of not married mothers at the birth of their child",
+"Average age of married mothers at the birth of their first child","Total fertility rate",
+"Total fertility rate - Swiss mother","Total fertility rate - Foreign mother";
+TIMEVAL("Jahr")=TLIST(A1),"1803","1804","1805","1806","1807","1808","1809","1810","1811","1812",
+"1813","1814","1815","1816","1817","1818","1819","1820","1821","1822","1823","1824","1825","1826",
+"1827","1828","1829","1830","1831","1832","1833","1834","1835","1836","1837","1838","1839","1840",
+"1841","1842","1843","1844","1845","1846","1847","1848","1849","1850","1851","1852","1853","1854",
+"1855","1856","1857","1858","1859","1860","1861","1862","1863","1864","1865","1866","1867","1868",
+"1869","1870","1871","1872","1873","1874","1875","1876","1877","1878","1879","1880","1881","1882",
+"1883","1884","1885","1886","1887","1888","1889","1890","1891","1892","1893","1894","1895","1896",
+"1897","1898","1899","1900","1901","1902","1903","1904","1905","1906","1907","1908","1909","1910",
+"1911","1912","1913","1914","1915","1916","1917","1918","1919","1920","1921","1922","1923","1924",
+"1925","1926","1927","1928","1929","1930","1931","1932","1933","1934","1935","1936","1937","1938",
+"1939","1940","1941","1942","1943","1944","1945","1946","1947","1948","1949","1950","1951","1952",
+"1953","1954","1955","1956","1957","1958","1959","1960","1961","1962","1963","1964","1965","1966",
+"1967","1968","1969","1970","1971","1972","1973","1974","1975","1976","1977","1978","1979","1980",
+"1981","1982","1983","1984","1985","1986","1987","1988","1989","1990","1991","1992","1993","1994",
+"1995","1996","1997","1998","1999","2000","2001","2002","2003","2004","2005","2006","2007","2008",
+"2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020";
+TIMEVAL[fr]("Année")=TLIST(A1),"1803","1804","1805","1806","1807","1808","1809","1810","1811",
+"1812","1813","1814","1815","1816","1817","1818","1819","1820","1821","1822","1823","1824","1825",
+"1826","1827","1828","1829","1830","1831","1832","1833","1834","1835","1836","1837","1838","1839",
+"1840","1841","1842","1843","1844","1845","1846","1847","1848","1849","1850","1851","1852","1853",
+"1854","1855","1856","1857","1858","1859","1860","1861","1862","1863","1864","1865","1866","1867",
+"1868","1869","1870","1871","1872","1873","1874","1875","1876","1877","1878","1879","1880","1881",
+"1882","1883","1884","1885","1886","1887","1888","1889","1890","1891","1892","1893","1894","1895",
+"1896","1897","1898","1899","1900","1901","1902","1903","1904","1905","1906","1907","1908","1909",
+"1910","1911","1912","1913","1914","1915","1916","1917","1918","1919","1920","1921","1922","1923",
+"1924","1925","1926","1927","1928","1929","1930","1931","1932","1933","1934","1935","1936","1937",
+"1938","1939","1940","1941","1942","1943","1944","1945","1946","1947","1948","1949","1950","1951",
+"1952","1953","1954","1955","1956","1957","1958","1959","1960","1961","1962","1963","1964","1965",
+"1966","1967","1968","1969","1970","1971","1972","1973","1974","1975","1976","1977","1978","1979",
+"1980","1981","1982","1983","1984","1985","1986","1987","1988","1989","1990","1991","1992","1993",
+"1994","1995","1996","1997","1998","1999","2000","2001","2002","2003","2004","2005","2006","2007",
+"2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020";
+TIMEVAL[it]("Anno")=TLIST(A1),"1803","1804","1805","1806","1807","1808","1809","1810","1811","1812",
+"1813","1814","1815","1816","1817","1818","1819","1820","1821","1822","1823","1824","1825","1826",
+"1827","1828","1829","1830","1831","1832","1833","1834","1835","1836","1837","1838","1839","1840",
+"1841","1842","1843","1844","1845","1846","1847","1848","1849","1850","1851","1852","1853","1854",
+"1855","1856","1857","1858","1859","1860","1861","1862","1863","1864","1865","1866","1867","1868",
+"1869","1870","1871","1872","1873","1874","1875","1876","1877","1878","1879","1880","1881","1882",
+"1883","1884","1885","1886","1887","1888","1889","1890","1891","1892","1893","1894","1895","1896",
+"1897","1898","1899","1900","1901","1902","1903","1904","1905","1906","1907","1908","1909","1910",
+"1911","1912","1913","1914","1915","1916","1917","1918","1919","1920","1921","1922","1923","1924",
+"1925","1926","1927","1928","1929","1930","1931","1932","1933","1934","1935","1936","1937","1938",
+"1939","1940","1941","1942","1943","1944","1945","1946","1947","1948","1949","1950","1951","1952",
+"1953","1954","1955","1956","1957","1958","1959","1960","1961","1962","1963","1964","1965","1966",
+"1967","1968","1969","1970","1971","1972","1973","1974","1975","1976","1977","1978","1979","1980",
+"1981","1982","1983","1984","1985","1986","1987","1988","1989","1990","1991","1992","1993","1994",
+"1995","1996","1997","1998","1999","2000","2001","2002","2003","2004","2005","2006","2007","2008",
+"2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020";
+TIMEVAL[en]("Year")=TLIST(A1),"1803","1804","1805","1806","1807","1808","1809","1810","1811","1812",
+"1813","1814","1815","1816","1817","1818","1819","1820","1821","1822","1823","1824","1825","1826",
+"1827","1828","1829","1830","1831","1832","1833","1834","1835","1836","1837","1838","1839","1840",
+"1841","1842","1843","1844","1845","1846","1847","1848","1849","1850","1851","1852","1853","1854",
+"1855","1856","1857","1858","1859","1860","1861","1862","1863","1864","1865","1866","1867","1868",
+"1869","1870","1871","1872","1873","1874","1875","1876","1877","1878","1879","1880","1881","1882",
+"1883","1884","1885","1886","1887","1888","1889","1890","1891","1892","1893","1894","1895","1896",
+"1897","1898","1899","1900","1901","1902","1903","1904","1905","1906","1907","1908","1909","1910",
+"1911","1912","1913","1914","1915","1916","1917","1918","1919","1920","1921","1922","1923","1924",
+"1925","1926","1927","1928","1929","1930","1931","1932","1933","1934","1935","1936","1937","1938",
+"1939","1940","1941","1942","1943","1944","1945","1946","1947","1948","1949","1950","1951","1952",
+"1953","1954","1955","1956","1957","1958","1959","1960","1961","1962","1963","1964","1965","1966",
+"1967","1968","1969","1970","1971","1972","1973","1974","1975","1976","1977","1978","1979","1980",
+"1981","1982","1983","1984","1985","1986","1987","1988","1989","1990","1991","1992","1993","1994",
+"1995","1996","1997","1998","1999","2000","2001","2002","2003","2004","2005","2006","2007","2008",
+"2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020";
+PRECISION("Demografisches Merkmal und Indikator","Lebendgeburten je 1000 Einwohner")=1;
+PRECISION[fr]("Caractéristique démographique et indicateur","Naissances vivantes pour 1000 habitants")=1;
+PRECISION[it]("Caratteristica demografia ed indicatore","Nati vivi ogni 1000 abitanti")=1;
+PRECISION[en]("Demographic characteristic and indicator","Births per 1000 population")=1;
+PRECISION("Demografisches Merkmal und Indikator","Durchschnittsalter der Mutter bei der Geburt")=1;
+PRECISION[fr]("Caractéristique démographique et indicateur","Age moyen de la mère à la naissance de l'enfant")=1;
+PRECISION[it]("Caratteristica demografia ed indicatore","Età media della madre alla nascita del figlio")=1;
+PRECISION[en]("Demographic characteristic and indicator","Average age of mothers at the birth of their child")=1;
+PRECISION("Demografisches Merkmal und Indikator","Durchschnittsalter der verheirateten Mutter bei der Geburt")=1;
+PRECISION[fr]("Caractéristique démographique et indicateur","Age moyen de la mère mariée à la naissance de l'enfant")=1;
+PRECISION[it]("Caratteristica demografia ed indicatore","Età media della madre sposata alla nascita del figlio")=1;
+PRECISION[en]("Demographic characteristic and indicator","Average age of married mothers at the birth of their child")=1;
+PRECISION("Demografisches Merkmal und Indikator","Durchschnittsalter der nicht verheirateten Mutter bei der Geburt")=1;
+PRECISION[fr]("Caractéristique démographique et indicateur","Age moyen de la mère pas mariée à la naissance de l'enfant")=1;
+PRECISION[it]("Caratteristica demografia ed indicatore","Età media della madre non sposata alla nascita del figlio")=1;
+PRECISION[en]("Demographic characteristic and indicator","Average age of not married mothers at the birth of their child")=1;
+PRECISION("Demografisches Merkmal und Indikator","Durchschnittsalter der verheirateten Mutter bei der Erstgeburt")=1;
+PRECISION[fr]("Caractéristique démographique et indicateur","Age moyen de la mère mariée à la naissance du 1er enfant")=1;
+PRECISION[it]("Caratteristica demografia ed indicatore","Età media della madre sposata alla nascita del primo figlio")=1;
+PRECISION[en]("Demographic characteristic and indicator","Average age of married mothers at the birth of their first child")=1;
+PRECISION("Demografisches Merkmal und Indikator","Zusammengefasste Geburtenziffer")=2;
+PRECISION[fr]("Caractéristique démographique et indicateur","Indicateur conjoncturel de fécondité")=2;
+PRECISION[it]("Caratteristica demografia ed indicatore","Indicatore sintetico di fecondità")=2;
+PRECISION[en]("Demographic characteristic and indicator","Total fertility rate")=2;
+PRECISION("Demografisches Merkmal und Indikator","Zusammengefasste Geburtenziffer - Schweizerische Mutter")=2;
+PRECISION[fr]("Caractéristique démographique et indicateur","Indicateur conjoncturel de fécondité - Mère suisse")=2;
+PRECISION[it]("Caratteristica demografia ed indicatore","Indicatore sintetico di fecondità - Madre svizzera")=2;
+PRECISION[en]("Demographic characteristic and indicator","Total fertility rate - Swiss mother")=2;
+PRECISION("Demografisches Merkmal und Indikator","Zusammengefasste Geburtenziffer - Ausländische Mutter")=2;
+PRECISION[fr]("Caractéristique démographique et indicateur","Indicateur conjoncturel de fécondité - Mère étrangère")=2;
+PRECISION[it]("Caratteristica demografia ed indicatore","Indicatore sintetico di fecondità - Madre straniera")=2;
+PRECISION[en]("Demographic characteristic and indicator","Total fertility rate - Foreign mother")=2;
+LAST-UPDATED="20210930 08:30";
+CONTACT="Sektion Demografie und Migration, +41 58 463 67 11, E-Mail: info.dem@bfs.admin.ch";
+CONTACT[fr]="Section Démographie et migration, +41 58 463 67 11, e-mail: info.dem@bfs.admin.ch";
+CONTACT[it]="Sezione Demografia e migrazione, +41 58 463 67 11, e-mail: info.dem@bfs.admin.ch";
+CONTACT[en]="Section Demography and migration, +41 58 463 67 11, email: info.dem@bfs.admin.ch";
+REFPERIOD="2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007,2006,2005,2004,2003,2002,2001,2000,1999,1998,1997,1996,1995,1994,1993,1992,1991,1990,1989,1988,1987,1986,1985,1984,1983,1982,1981,1980,1979,1978,1977,1976,1975,1974,1973,1972,"
+"1971,1970,1969,1968,1967,1966,1965,1964,1963,1962,1961,1960,1959,1958,1957,1956,1955,1954,1953,1952,1951,1950,1949,1948,1947,1946,1945,1944,1943,1942,1941,1940,1939,1938,1937,1936,1935,1934,1933,1932,1931,1930,1929,1928,1927,1926,1925,1924,1923,1922,1921,"
+"1920,1919,1918,1917,1916,1915,1914,1913,1912,1911,1910,1909,1908,1907,1906,1905,1904,1903,1902,1901,1900,1899,1898,1897,1896,1895,1894,1893,1892,1891,1890,1889,1888,1887,1886,1885,1884,1883,1882,1881,1880,1879,1878,1877,1876,1875,1874,1873,1872,1871,1870,"
+"1869,1868,1867,1866,1865,1864,1863,1862,1861,1860,1859,1858,1857,1856,1855,1854,1853,1852,1851,1850,1849,1848,1847,1846,1845,1844,1843,1842,1841,1840,1839,1838,1837,1836,1835,1834,1833,1832,1831,1830,1829,1828,1827,1826,1825,1824,1823,1822,1821,1820,1819,"
+"1818,1817,1816,1815,1814,1813,1812,1811,1810,1809,1808,1807,1806,1805,1804,1803";
+REFPERIOD[fr]="2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007,2006,2005,2004,2003,2002,2001,2000,1999,1998,1997,1996,1995,1994,1993,1992,1991,1990,1989,1988,1987,1986,1985,1984,1983,1982,1981,1980,1979,1978,1977,1976,1975,1974,1973,1"
+"972,1971,1970,1969,1968,1967,1966,1965,1964,1963,1962,1961,1960,1959,1958,1957,1956,1955,1954,1953,1952,1951,1950,1949,1948,1947,1946,1945,1944,1943,1942,1941,1940,1939,1938,1937,1936,1935,1934,1933,1932,1931,1930,1929,1928,1927,1926,1925,1924,1923,1922,1"
+"921,1920,1919,1918,1917,1916,1915,1914,1913,1912,1911,1910,1909,1908,1907,1906,1905,1904,1903,1902,1901,1900,1899,1898,1897,1896,1895,1894,1893,1892,1891,1890,1889,1888,1887,1886,1885,1884,1883,1882,1881,1880,1879,1878,1877,1876,1875,1874,1873,1872,1871,1"
+"870,1869,1868,1867,1866,1865,1864,1863,1862,1861,1860,1859,1858,1857,1856,1855,1854,1853,1852,1851,1850,1849,1848,1847,1846,1845,1844,1843,1842,1841,1840,1839,1838,1837,1836,1835,1834,1833,1832,1831,1830,1829,1828,1827,1826,1825,1824,1823,1822,1821,1820,1"
+"819,1818,1817,1816,1815,1814,1813,1812,1811,1810,1809,1808,1807,1806,1805,1804,1803";
+REFPERIOD[it]="2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007,2006,2005,2004,2003,2002,2001,2000,1999,1998,1997,1996,1995,1994,1993,1992,1991,1990,1989,1988,1987,1986,1985,1984,1983,1982,1981,1980,1979,1978,1977,1976,1975,1974,1973,1"
+"972,1971,1970,1969,1968,1967,1966,1965,1964,1963,1962,1961,1960,1959,1958,1957,1956,1955,1954,1953,1952,1951,1950,1949,1948,1947,1946,1945,1944,1943,1942,1941,1940,1939,1938,1937,1936,1935,1934,1933,1932,1931,1930,1929,1928,1927,1926,1925,1924,1923,1922,1"
+"921,1920,1919,1918,1917,1916,1915,1914,1913,1912,1911,1910,1909,1908,1907,1906,1905,1904,1903,1902,1901,1900,1899,1898,1897,1896,1895,1894,1893,1892,1891,1890,1889,1888,1887,1886,1885,1884,1883,1882,1881,1880,1879,1878,1877,1876,1875,1874,1873,1872,1871,1"
+"870,1869,1868,1867,1866,1865,1864,1863,1862,1861,1860,1859,1858,1857,1856,1855,1854,1853,1852,1851,1850,1849,1848,1847,1846,1845,1844,1843,1842,1841,1840,1839,1838,1837,1836,1835,1834,1833,1832,1831,1830,1829,1828,1827,1826,1825,1824,1823,1822,1821,1820,1"
+"819,1818,1817,1816,1815,1814,1813,1812,1811,1810,1809,1808,1807,1806,1805,1804,1803";
+REFPERIOD[en]="2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007,2006,2005,2004,2003,2002,2001,2000,1999,1998,1997,1996,1995,1994,1993,1992,1991,1990,1989,1988,1987,1986,1985,1984,1983,1982,1981,1980,1979,1978,1977,1976,1975,1974,1973,1"
+"972,1971,1970,1969,1968,1967,1966,1965,1964,1963,1962,1961,1960,1959,1958,1957,1956,1955,1954,1953,1952,1951,1950,1949,1948,1947,1946,1945,1944,1943,1942,1941,1940,1939,1938,1937,1936,1935,1934,1933,1932,1931,1930,1929,1928,1927,1926,1925,1924,1923,1922,1"
+"921,1920,1919,1918,1917,1916,1915,1914,1913,1912,1911,1910,1909,1908,1907,1906,1905,1904,1903,1902,1901,1900,1899,1898,1897,1896,1895,1894,1893,1892,1891,1890,1889,1888,1887,1886,1885,1884,1883,1882,1881,1880,1879,1878,1877,1876,1875,1874,1873,1872,1871,1"
+"870,1869,1868,1867,1866,1865,1864,1863,1862,1861,1860,1859,1858,1857,1856,1855,1854,1853,1852,1851,1850,1849,1848,1847,1846,1845,1844,1843,1842,1841,1840,1839,1838,1837,1836,1835,1834,1833,1832,1831,1830,1829,1828,1827,1826,1825,1824,1823,1822,1821,1820,1"
+"819,1818,1817,1816,1815,1814,1813,1812,1811,1810,1809,1808,1807,1806,1805,1804,1803";
+DATABASE="BFS - STAT-TAB / Bundesamt für Statistik, 2010 Neuchâtel / Schweiz / © Bundesamt für Statistik";
+DATABASE[fr]="OFS - STAT-TAB / Office fédéral de la statistique, 2010 Neuchâtel / Suisse / © Office fédéral de la statistique";
+DATABASE[it]="UST - STAT-TAB / Ufficio federale di statistica, 2010 Neuchâtel / Svizzera / © Ufficio federale di statistica";
+DATABASE[en]="FSO - STAT-TAB / Federal Statistical Office, 2010 Neuchâtel / Switzerland / © Federal Statistical Office";
+SOURCE="BFS - BEVNAT, ESPOP, STATPOP - © BFS";
+SOURCE[fr]="OFS - BEVNAT, ESPOP, STATPOP - © OFS";
+SOURCE[it]="UST - BEVNAT, ESPOP, STATPOP - © UST";
+SOURCE[en]="FSO - BEVNAT, ESPOP, STATPOP - © FSO";
+SURVEY="Statistik der natürlichen Bevölkerungsbewegung (BEVNAT), Statistik des jährlichen Bevölkerun"
+"gsstandes (1981-2010) (ESPOP), Statistik der Bevölkerung und der Haushalte (STATPOP)";
+SURVEY[fr]="Statistique du mouvement naturel de la population (BEVNAT), Statistique de l'état annuel"
+" de la population (1981-2010) (ESPOP), Statistique de la population et des ménages (STATPOP)";
+SURVEY[it]="Statistica del movimento naturale della popolazione (BEVNAT), Statistica dello stato ann"
+"uale della popolazione (1981-2010) (ESPOP), Statistica della popolazione e delle economie domestich"
+"e (STATPOP)";
+SURVEY[en]="Vital statistics (BEVNAT), Annual Population Statistics (1981-2010) (ESPOP), Population "
+"and Households Statistics (STATPOP)";
+LINK="https://www.bfs.admin.ch/asset/de/px-x-0102020204_111";
+LINK[fr]="https://www.bfs.admin.ch/asset/fr/px-x-0102020204_111";
+LINK[it]="https://www.bfs.admin.ch/asset/it/px-x-0102020204_111";
+LINK[en]="https://www.bfs.admin.ch/asset/en/px-x-0102020204_111";
+NOTE="<B>Metainformation:</B>#Letzte Änderungen: Neuer Datensatz (2020)#Stand der Datenbank: September 2021# Erhebungsperiode: Kalenderjahr# Raumbezug: Schweiz# Datenquelle: Statistik der natürlichen Bevölkerungsbewegung (BEVNAT), 1981-2010 Statistik des "
+"jährlichen Bevölkerungsstandes (ESPOP), ab 2011 Statistik der Bevölkerung und der Haushalte (STATPOP)##<B>Verwendete Zeichen</B>:#' ... ' : Zahl unbekannt, weil (noch) nicht erhoben oder (noch) nicht berechnet##Die Kategorie 'Mutter nicht verheiratet' "
+"umfasst alle Mütter mit einem anderen Zivilstand als 'verheiratet'.##Die historischen Daten stammen aus der Publikation «Historische Statistik der Schweiz» (Chronos, 1996) und den jährlichen Publikationen «Bevölkerungsbewegung in der Schweiz».#Die "
+"übrigen Daten stammen aus der Statistik der natürlichen Bevölkerungsbewegung <A HREF=https://www.bfs.admin.ch/bfs/de/home/statistiken/bevoelkerung/erhebungen/bevnat.html TARGET=_blank>BEVNAT</A>##Informationen über die verwendeten Begriffe befinden sich "
+"hier: <A HREF=https://www.bfs.admin.ch/bfs/de/home/grundlagen/definitionen.html?dyn_prodima=900010&dyn_pageIndex=0 TARGET=_blank>Definitionen</A>##Historische Vertiefung:#<A HREF=http://www.hls-dhs-dss.ch/index.php TARGET=_blank>Historisches Lexikon der "
+"Schweiz</A>#";
+NOTE[fr]="<B>Métainformation:</B>#Dernière modification: nouveau jeu de données (2020)#Etat de la base de données: septembre 2021#Période de référence: année civile#Référence spatiale: Suisse#Sources de données: Statistique du mouvement naturel de la "
+"population (BEVNAT), 1981-2010 Statistique de l'état annuel de la population (ESPOP), depuis 2011 Statistique de la population et des ménages (STATPOP)##<B>Signes utilisés</B>:#' ... ' : chiffre inconnu car pas (encore) relevé ou pas (encore) calculé##"
+"Sous la catégorie 'Mère pas mariée' sont comprises toutes les mères d'un autre état civil que mariée.##Les données historiques proviennent de la publication « Statistique historique de la Suisse » (Chronos, 1996) et des publications annuelles « Mouvement "
+"de la Population de la Suisse ».#Les autres données proviennent de la Statistique du mouvement naturel de la population <A HREF=https://www.bfs.admin.ch/bfs/fr/home/statistiques/population/enquetes/bevnat.html TARGET=_blank>BEVNAT</A>##Des informations "
+"sur les termes utilisés peuvent être trouvées ici: <A HREF=https://www.bfs.admin.ch/bfs/fr/home/bases-statistiques/definitions.html?dyn_prodima=900010&dyn_pageIndex=0 TARGET=_blank>Définitions</A>##Approfondissement historique:#<A HREF=http://www.hls-dhs-"
+"dss.ch/index.php TARGET=_blank>Dictionnaire historique de la Suisse</A>#";
+NOTE[it]="<B>Metainformazioni:</B>#Ultima modifica: nuovo set di dati (2020)#Stato della banca dati: settembre 2021#Periodo di riferimento: anno civile#Georeferenza: Svizzera#Fonti dei dati: statistica del movimento naturale della popolazione (BEVNAT), "
+"1981-2010: statistica dello stato annuale della popolazione (ESPOP), dal 2011: statistica della popolazione e delle economie domestiche (STATPOP)##<B>Simboli utilizzati</B>:#' ... ' : cifra sconosciuta perché non (ancora) rilevata o non (ancora) "
+"calcolata##La categoria 'Madre non sposata' comprende tutte le madri con uno stato civile diverso da 'coniugata'.##I dati storici provengono dalla pubblicazione « Historische Statistik der Schweiz/Statistique historique de la Suisse » (Chronos, 1996, in "
+"tedesco o francese) e dalle pubblicazioni annuali  « Die Bewegung der Bevölkerung in der Schweiz/Mouvement de la Population de la Suisse » (in tedesco o francese).#Gli altri dati provengono dalla statistica del movimento naturale della popolazione <A "
+"HREF=https://www.bfs.admin.ch/bfs/fr/home/statistiques/population/enquetes/bevnat.html TARGET=_blank>BEVNAT</A> (in francese)##Ulteriori informazioni sulle termini utilizzate possono essere trovate qui: <A HREF=https://www.bfs.admin.ch/bfs/it/home/basi-"
+"statistiche/definizioni.html?dyn_prodima=900010 TARGET=_blank>Definizioni</A>##Approfondimento storico:#<A HREF=http://www.hls-dhs-dss.ch/index.php TARGET=_blank>Dizionario storico della Svizzera</A>#";
+NOTE[en]="<B>Metainformation:</B>#Last modified: new data set (2020)#State of the database: September 2021#Reference period : Calendar year#Spatial reference: Switzerland#Data sources: Vital Statistics (BEVNAT), 1981-2010 Annual Population Statistics "
+"(ESPOP), from 2011 Population and Households Statistics (STATPOP)##<B>Used signs</B>:#' ... ' : figure unknown because not (yet) collected or not (yet) calculated##The category 'Mother not married' includes all mothers with a marital status other than "
+"married.##Historical data taken from the publication « Historical Statistics of Switzerland » (Chronos, 1996) and the annual publications on Vital statistics (in French: « Mouvement de la Population de la Suisse »).#The rest of the data comes from the "
+"Vital statistics <A HREF=https://www.bfs.admin.ch/bfs/de/home/statistiken/bevoelkerung/erhebungen/bevnat.html TARGET=_blank>BEVNAT</A> (in German)##Information about the term used can be found here: <A HREF=https://www.bfs.admin.ch/bfs/en/home/basics/"
+"definitions.html?dyn_prodima=900010 TARGET=_blank>Definitions</A>##Historical background:#<A HREF=http://www.hls-dhs-dss.ch/index.php TARGET=_blank>The Historical Dictionary of Switzerland</A>#";
+DATASYMBOL1="-";
+DATASYMBOL1[fr]="-";
+DATASYMBOL1[it]="-";
+DATASYMBOL1[en]="-";
+DATASYMBOL4="*";
+DATASYMBOL4[fr]="*";
+DATASYMBOL4[it]="*";
+DATASYMBOL4[en]="*";
+DATASYMBOL5="( )";
+DATASYMBOL5[fr]="( )";
+DATASYMBOL5[it]="( )";
+DATASYMBOL5[en]="( )";
+DATASYMBOL6="X";
+DATASYMBOL6[fr]="X";
+DATASYMBOL6[it]="X";
+DATASYMBOL6[en]="X";
+DATA=
+62520 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 22100 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+62180 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 16400 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+63390 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 15700 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+61920 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 15300 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+61720 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 13800 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+62400 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 20100 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+64400 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 24000 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+62970 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 18300 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+64800 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 12800 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+63630 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 18600 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+59850 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 14500 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+60900 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 9800 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+65200 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 23800 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+62700 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 18300 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+51670 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." -10900 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+47180 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." -4200 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+65380 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 18300 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+65740 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 24600 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+65500 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 26100 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+65100 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 25500 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+66370 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 25800 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+66110 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 24600 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+64710 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 21700 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+67630 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 23700 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+64320 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 24700 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+65910 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 21900 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+64570 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 17200 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+66100 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 21500 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+66510 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 22600 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+63820 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 16500 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+66520 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 17700 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+69720 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 17400 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+70740 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 22800 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+70730 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 21100 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+71120 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 15800 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+71630 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 17100 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+71200 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 18900 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+72080 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 19700 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+72230 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 21400 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+71550 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 19000 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+71880 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 19700 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+67270 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 13600 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+69000 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 18600 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+67400 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 15000 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+61250 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 8700 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+63660 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 13000 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+68380 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 17900 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+68690 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 16100 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+67280 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 13000 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+66000 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 12200 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+65650 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 10100 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+64230 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 8600 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+61520 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 3500 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+67330 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 15400 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+67700 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 15100 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+71370 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 15900 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+75330 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 19400 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+75310 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 24400 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 
+74820 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 17300 "..." "..." 29.6 "..." "..." "..." "..." 3.71 "..." "..." 
+75870 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 24800 "..." "..." 29.8 "..." "..." "..." "..." 3.74 "..." "..." 
+79160 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 24800 "..." "..." 30.9 "..." "..." "..." "..." 3.88 "..." "..." 
+79600 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 20100 "..." "..." 30.8 "..." "..." "..." "..." 3.88 "..." "..." 
+78290 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 19200 "..." "..." 30.1 "..." "..." "..." "..." 3.8 "..." "..." 
+80580 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 23900 "..." "..." 30.8 "..." "..." "..." "..." 3.9 "..." "..." 
+77327 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 18211 "..." "..." 29.4 "..." "..." "..." "..." 3.73 "..." "..." 
+75705 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 16975 "..." "..." 28.6 "..." "..." "..." "..." 3.65 "..." "..." 
+77965 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 14348 "..." "..." 29.4 "..." "..." "..." "..." 3.75 "..." "..." 
+79208 "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." "..." 10457 "..." "..." 29.7 "..." "..." "..." "..." 3.8 "..." "..." 
+77633 6829 6185 7056 6348 6553 6596 6699 6673 6283 6257 6125 6029 3631 205 3426 29 "..." "..." "..." "..." 3.72 "..." "..." 
+80329 6611 6577 7219 6872 6908 6589 6681 6582 6629 6771 6447 6443 20571 10098 10473 29.8 "..." "..." "..." "..." 3.85 "..." "..." 
+80572 6915 6662 7270 6820 6806 6439 6671 6767 6761 6613 6418 6430 18896 9555 9341 29.7 "..." "..." "..." "..." 3.87 "..." "..." 
+83051 7065 6272 7051 6722 6924 6876 7133 7128 7130 7090 6927 6733 22206 11134 11072 30.4 "..." "..." "..." "..." 3.99 "..." "..." 
+87579 7367 6714 7545 7235 7451 7383 7890 7544 7366 7413 6699 6972 21466 10426 11040 31.8 "..." "..." "..." "..." 4.22 "..." "..." 
+90786 7805 7680 8241 7721 7616 7258 7736 7534 7318 7424 7207 7246 23967 11624 12343 32.8 "..." "..." "..." "..." 4.38 "..." "..." 
+89244 7360 6786 7467 7509 7691 7406 7826 7679 7566 7558 7165 7231 23891 12066 11825 32 "..." "..." "..." "..." 4.31 "..." "..." 
+87833 7515 6975 7657 7499 7570 7193 7360 7327 7489 7318 6996 6934 22522 11262 11260 31.3 "..." "..." "..." "..." 4.24 "..." "..." 
+86180 7040 6668 7450 7266 7364 7166 7283 7395 7196 7215 6962 7175 22529 11184 11345 30.5 "..." "..." "..." "..." 4.16 "..." "..." 
+84165 7263 6708 7079 6980 7423 7075 7330 7266 6715 6541 6648 7137 21942 10957 10985 29.6 "..." "..." "..." "..." 4.05 "..." "..." 
+85142 7802 6763 7573 6866 7110 6838 7167 6989 6984 7143 6817 7090 21163 10573 10590 29.8 "..." "..." "..." "..." 4.09 "..." "..." 
+82689 7214 6506 7233 6744 6937 6860 7088 6983 6967 6878 6594 6685 19840 10110 9730 28.9 "..." "..." "..." "..." 3.96 "..." "..." 
+81974 7115 6676 7163 6832 6887 6650 6886 7071 6823 6941 6400 6530 23241 12245 10996 28.5 "..." "..." "..." "..." 3.91 "..." "..." 
+81571 6714 6546 7336 6627 7019 6749 7036 6935 6810 6759 6474 6566 23270 11942 11328 28.3 "..." "..." "..." "..." 3.87 "..." "..." 
+80349 6929 6245 7048 6761 6659 6660 6849 6951 6685 6777 6405 6380 18801 9729 9072 27.7 "..." "..." "..." "..." 3.79 "..." "..." 
+80763 6997 6330 7131 6836 6910 6552 6938 6799 6778 6766 6275 6451 20702 10555 10147 27.8 "..." "..." "..." "..." 3.8 "..." "..." 
+81287 6951 6257 7098 7105 6753 6713 7076 6830 6771 6798 6496 6439 22348 11493 10855 27.9 "..." "..." "..." "..." 3.8 "..." "..." 
+81098 6864 6601 7144 6678 6863 6744 7182 7008 6784 6695 6173 6362 22869 11969 10900 27.7 "..." "..." "..." "..." 3.77 "..." "..." 
+81176 6746 6523 7219 6990 6957 6770 6805 6895 6909 6621 6273 6468 21461 11237 10224 27.6 "..." "..." "..." "..." 3.74 "..." "..." 
+78548 6920 6233 7235 6720 6790 6659 6795 6755 5743 5312 6194 7192 16743 8638 8105 26.6 "..." "..." "..." "..." 3.57 "..." "..." 
+83596 7346 6948 7685 7212 7001 6995 7103 7097 6624 6809 6290 6486 22413 11669 10744 28.2 "..." "..." "..." "..." 3.75 "..." "..." 
+83125 6912 6765 7292 7072 7046 7028 7045 7094 6893 6809 6350 6819 25947 13371 12576 27.7 "..." "..." "..." "..." 3.68 "..." "..." 
+84897 6981 6655 7585 7298 7244 6885 7121 7175 7115 7227 6672 6939 23838 12533 11305 27.9 "..." "..." "..." "..." 3.7 "..." "..." 
+84142 7125 6331 7544 7299 7553 7045 7392 7253 6676 6423 6538 6963 22257 11607 10650 27.3 "..." "..." "..." "..." 3.62 "..." "..." 
+84973 7382 6867 7444 7298 7263 7164 7370 7287 6985 6873 6332 6708 25226 13294 11932 27.3 "..." "..." "..." "..." 3.6 "..." "..." 
+88428 7268 7247 7824 7460 7518 7339 7467 7528 7385 7330 6957 7105 32332 16314 16018 28.1 "..." "..." "..." "..." 3.69 "..." "..." 
+90078 7159 6801 7760 7447 7822 7702 7786 7969 7483 7605 7237 7307 33679 17002 16677 28.3 "..." "..." "..." "..." 3.7 "..." "..." 
+91793 7695 7073 8055 7724 7704 7616 7949 8179 7865 7555 7145 7233 32879 16149 16730 28.5 "..." "..." "..." "..." 3.7 "..." "..." 
+94472 7493 7308 8372 7990 8111 7668 8228 8353 7832 7794 7386 7937 36881 18574 18307 29 "..." "..." "..." "..." 3.75 "..." "..." 
+94316 7858 7619 8328 8186 7994 8051 8297 8139 7944 7747 6864 7289 30710 16124 14586 28.6 "..." "..." "..." "..." 3.68 "..." "..." 
+97028 7948 7734 8873 8237 8219 8115 8248 8305 8194 7946 7658 7551 37010 18451 18559 29 "..." "..." "..." "..." 3.72 "..." "..." 
+96481 7736 7593 8569 8325 8460 7941 8300 8399 8063 7930 7553 7612 38779 19969 18810 28.5 "..." "..." "..." "..." 3.65 "..." "..." 
+93824 7832 7110 8158 8100 8368 7659 8046 8164 7906 7461 7333 7687 34198 17482 16716 27.4 "..." "..." "..." "..." 3.5 "..." "..." 
+94867 7872 7824 8508 8206 8207 7668 8278 8073 7794 7767 7252 7418 34010 17472 16538 27.3 "..." "..." "..." "..." 3.49 "..." "..." 
+94653 7793 7767 8569 8023 7853 7944 8238 8083 7950 7805 7158 7470 32853 16672 16181 26.9 "..." "..." "..." "..." 3.44 "..." "..." 
+95595 8007 7598 8632 8213 8202 7962 8243 8131 7883 7908 7348 7468 36391 18517 17874 26.9 "..." "..." "..." "..." 3.44 "..." "..." 
+94508 7706 7492 8570 8092 8181 7889 8299 8381 8103 7544 7099 7152 35256 18163 17093 26.2 "..." "..." "..." "..." 3.37 "..." "..." 
+96245 7858 8014 8564 8425 8367 8079 8244 8414 7771 7840 7334 7335 38548 19682 18866 26.4 "..." "..." "..." "..." 3.39 "..." "..." 
+94112 7817 7419 8723 8296 8223 7784 8209 8060 7698 7618 7029 7236 34696 17701 16995 25.5 "..." "..." "..." "..." 3.28 "..." "..." 
+93514 7551 7658 8216 8015 8218 7862 8142 8063 7624 7664 7257 7244 37016 18720 18296 25 "..." "..." "..." "..." 3.23 "..." "..." 
+91320 7709 7074 8112 8031 8129 7704 8072 7900 7385 7254 6672 7278 31701 15993 15708 24.2 "..." "..." "..." "..." 3.12 "..." "..." 
+92196 7719 7579 8342 7864 7663 7507 7938 7806 7689 7433 7232 7424 38094 19531 18563 24.2 "..." "..." "..." "..." 3.13 "..." "..." 
+89757 7568 7364 8155 7605 7797 7581 7862 7623 7315 7346 6650 6891 34330 17687 16643 23.2 "..." "..." "..." "..." 3.03 "..." "..." 
+87330 7300 7117 8012 7691 7766 7452 7491 7419 6889 6805 6512 6876 33701 17614 16087 22.4 "..." "..." "..." "..." 2.93 "..." "..." 
+75545 7214 6662 7559 6572 5168 5591 6230 6403 6121 6073 5776 6176 24021 12519 11502 19.5 "..." "..." "..." "..." 2.52 "..." "..." 
+73660 6384 6152 6656 6175 6410 6061 6222 6315 6037 6095 5372 5781 23037 12350 10687 18.9 "..." "..." "..." "..." 2.44 "..." "..." 
+72065 6271 5879 6513 6268 6391 6019 6104 6201 6130 5646 5156 5487 18759 9760 8999 18.5 "..." "..." "..." "..." 2.37 "..." "..." 
+72658 5769 5642 6623 6257 6352 6134 6314 6157 5809 6218 5582 5801 -2376 -2010 -366 18.7 "..." "..." "..." "..." 2.38 "..." "..." 
+72125 6124 5829 6315 5593 5771 5592 5415 5022 5798 6692 6920 7054 17193 10120 7073 18.6 "..." "..." "..." "..." 2.35 "..." "..." 
+81190 7236 7419 7874 7362 7498 6812 6580 6428 6291 5879 5648 6163 25198 14245 10953 20.9 "..." "..." "..." "..." 2.62 "..." "..." 
+80808 6833 6761 7712 7146 7216 6836 6757 6508 6228 6282 6024 6505 31290 16475 14815 20.7 "..." "..." "..." "..." 2.58 "..." "..." 
+76290 6984 6475 7047 6686 6803 6363 6556 6278 5998 5670 5544 5886 25998 14471 11527 19.5 "..." "..." "..." "..." 2.4 "..." "..." 
+75551 6420 6264 7065 6665 6813 6271 6350 6122 5989 5890 5678 6024 29568 15457 14111 19.2 "..." "..." "..." "..." 2.35 "..." "..." 
+73508 6372 6280 6826 6490 6563 6130 6190 5996 5896 5700 5389 5676 24520 12937 11583 18.6 "..." "..." "..." "..." 2.26 "..." "..." 
+72570 6004 6152 6766 6336 6477 6069 6122 6198 5716 5761 5365 5604 24693 13136 11557 18.2 "..." "..." "..." "..." 2.21 "..." "..." 
+72118 5917 5833 6901 6271 6350 6096 6145 5925 5891 5597 5408 5784 25666 13564 12102 18 "..." "..." "..." "..." 2.17 "..." "..." 
+69533 6190 5769 6481 6200 6256 5934 5973 5731 5281 4888 5080 5750 20331 11361 8970 17.3 "..." "..." "..." "..." 2.07 "..." "..." 
+69594 5970 6145 6342 6038 6129 5787 5998 5693 5436 5397 5176 5483 21531 11310 10221 17.3 "..." "..." "..." "..." 2.05 "..." "..." 
+69006 5810 5818 6382 5993 6258 5608 5860 5739 5548 5422 5173 5395 18568 9493 9075 17.1 "..." "..." "..." "..." 2.01 "..." "..." 
+69855 5673 5857 6315 6119 6099 5946 5919 6016 5512 5553 5228 5618 22916 11743 11173 17.2 "..." "..." "..." "..." 2.02 "..." "..." 
+69855 5673 5857 6315 6119 6099 5713 5827 5716 5358 5238 4870 5413 18835 9961 8874 17.2 "..." "..." "..." "..." 2.02 "..." "..." 
+68650 5673 5857 6315 6119 6099 5740 5900 5755 5389 5447 4968 5081 18739 10037 8702 16.8 30.4 30.6 24.7 27.2 1.94 "..." "..." 
+67509 5752 5584 6324 5867 6149 5533 5720 5650 5409 5280 4966 5275 20328 10408 9920 16.4 30.3 30.5 24.7 27.2 1.89 "..." "..." 
+67277 5633 5412 6135 6073 5880 5427 5806 5570 5309 5308 5234 5490 20471 10763 9708 16.3 30.3 30.5 24.7 27.3 1.88 "..." "..." 
+66378 5914 5621 6165 5719 6052 5747 5655 5552 5322 5157 4596 4878 16145 8821 7324 16 30.2 30.5 24.6 27.3 1.84 "..." "..." 
+64966 5485 5608 6302 5769 5814 5358 5373 5283 5120 4978 4796 5080 17316 8785 8531 15.6 30.2 30.5 24.6 27.3 1.8 "..." "..." 
+62480 5294 5236 5553 5575 5680 5158 5293 5062 5022 4979 4736 4892 15206 7948 7258 14.9 30.2 30.4 24.6 27.3 1.74 "..." "..." 
+63790 5399 5355 5951 5671 5798 5394 5402 5189 5001 4878 4700 5052 15214 8212 7002 15.2 30.2 30.4 24.6 27.4 1.78 "..." "..." 
+63837 5218 5269 5963 5837 5798 5369 5502 5328 5055 4998 4627 4873 14353 7597 6756 15.1 30 30.2 24.7 27.4 1.79 "..." "..." 
+64115 5659 5634 6039 6024 5604 4579 4964 5054 5352 5065 4805 5336 13356 6911 6445 15.1 30 30.2 24.7 27.3 1.82 "..." "..." 
+71926 5595 4545 6206 6635 6826 6451 6240 6150 5904 5586 5667 6121 24590 12570 12020 16.9 30.1 30.3 24.7 27.5 2.05 "..." "..." 
+78875 6425 6190 6961 6732 7002 6595 6627 6795 6570 6316 6036 6626 31947 16259 15688 18.4 30.1 30.3 24.7 27.6 2.27 "..." "..." 
+83049 6987 6989 7721 7134 7414 6828 6944 6356 6724 6693 6505 6754 35640 18158 17482 19.2 30.1 30.3 24.7 27.6 2.4 "..." "..." 
+85627 7317 7683 8054 7448 7525 6912 7047 7118 6854 6736 6222 6711 33291 17352 15939 19.7 30.1 30.2 24.7 27.4 2.5 "..." "..." 
+88522 7667 7465 8138 7891 7915 7044 7410 7051 7093 7173 6675 7000 37436 19894 17542 20.1 30 30.2 24.6 27.4 2.6 "..." "..." 
+89126 7491 7743 8481 8042 8040 7453 7655 7123 6881 6942 6430 6845 38850 20793 18057 20 30 30.2 24.5 27.3 2.62 "..." "..." 
+87724 7483 7519 8169 7873 8024 7442 7444 6911 6912 6755 6379 6813 36340 19380 16960 19.4 29.8 30 24.3 27.1 2.56 "..." "..." 
+87763 7500 7604 8121 8014 7749 7344 7499 6985 6901 6615 6458 6973 38084 19731 18353 19.2 29.7 29.9 24.3 27 2.54 "..." "..." 
+85308 7494 7180 7870 7639 7558 7164 7407 6938 6629 6541 6397 6491 35811 18741 17070 18.4 29.6 29.8 24.2 27 2.44 "..." "..." 
+84776 7161 7033 8004 7757 7653 6877 7075 6845 6708 6745 6224 6694 37404 19483 17921 18.1 29.6 29.8 24.3 26.8 2.4 "..." "..." 
+81903 6946 7015 7690 7213 7418 6727 6911 6695 6526 6488 5951 6323 31951 16648 15303 17.2 29.5 29.7 24.3 26.8 2.3 "..." "..." 
+83549 6894 7109 7837 7376 7614 6870 6745 6881 6814 6530 6335 6544 35925 18549 17376 17.4 29.4 29.6 24.3 26.6 2.32 "..." "..." 
+83029 7090 6966 7846 7359 7424 6836 7141 6860 6722 6441 5973 6371 33345 17044 16301 17 29.4 29.6 24.3 26.6 2.29 "..." "..." 
+83741 6996 7059 7580 7569 7541 7052 7165 6965 6533 6606 6192 6483 34628 17496 17132 17 29.3 29.5 24.1 26.6 2.28 "..." "..." 
+85331 7242 6953 8048 7593 7669 7031 7180 7169 6840 6753 6281 6572 34965 18082 16883 17.1 29.2 29.4 24.2 26.5 2.3 "..." "..." 
+87912 7260 7646 8350 7709 8016 7314 7409 7279 7026 6797 6391 6715 36339 18835 17504 17.4 29.1 29.3 24.3 26.4 2.35 "..." "..." 
+90823 7472 7635 8429 8088 8022 7483 7523 7368 7422 7352 6851 7178 39757 19975 19782 17.7 29 29.2 24.2 26.2 2.41 "..." "..." 
+91421 7749 7701 8766 8164 8144 7577 7079 6861 7208 7392 7191 7589 42140 21376 20764 17.6 28.9 29.1 24.3 26.2 2.4 "..." "..." 
+92973 8083 7800 8883 8289 8174 7596 7896 7551 7317 7283 6897 7204 42896 21688 21208 17.7 28.8 29 24.1 26.1 2.42 "..." "..." 
+94372 7824 7973 8723 8125 8492 7991 8170 7928 7618 7298 6917 7313 42278 21155 21123 17.7 28.7 28.9 23.9 26.1 2.44 "..." "..." 
+99238 8230 8050 8990 8789 8692 8381 8368 8317 7747 8063 7651 7960 48234 23734 24500 18.3 28.6 28.7 24.2 25.9 2.53 "..." "..." 
+104322 8504 8497 9443 9015 9221 8763 8746 8753 8688 8515 8082 8095 49197 24641 24556 18.7 28.4 28.6 24.5 25.8 2.6 "..." "..." 
+109993 8875 8955 10017 10010 9892 9155 9512 9069 9040 8835 8127 8506 53004 26222 26782 19.3 28.3 28.5 24.4 25.8 2.67 "..." "..." 
+112890 9208 9513 10352 9862 9866 9384 9653 9015 9262 9138 8577 9060 59281 29547 29734 19.5 28.3 28.4 24.4 25.7 2.68 "..." "..." 
+111835 9506 9219 10506 9985 9862 9422 9247 9166 9097 9045 8336 8444 56288 28597 27691 19.1 28.2 28.3 24.4 25.6 2.61 "..." "..." 
+109738 9322 8879 10183 9710 10079 9284 9468 8927 8714 8836 8146 8190 53934 27324 26610 18.5 28.2 28.3 24.5 25.6 2.52 "..." "..." 
+107417 8844 8730 9938 9670 9820 9155 9045 8780 8474 8594 8092 8275 52275 26002 26273 17.9 28.1 28.2 24.4 25.5 2.41 "..." "..." 
+105130 8940 8781 9787 9421 9443 8901 8913 8477 8461 8157 7807 8042 47756 23928 23828 17.3 28 28.1 24 25.4 2.3 "..." "..." 
+102520 8888 8442 9570 9309 9353 8738 8700 8242 8120 7974 7500 7684 44518 22083 22435 16.7 27.9 28.1 23.9 25.3 2.19 "..." "..." 
+99216 8402 8010 9095 8794 8962 8727 8670 8009 7840 7474 7392 7841 42125 21281 20844 16.1 27.8 28 23.9 25.3 2.1 "..." "..." 
+96261 8219 7723 9045 8726 8671 8354 8344 7720 7667 7512 7154 7126 38405 19068 19337 15.5 27.7 27.9 23.5 25.3 2.04 1.82 2.9 
+91342 7759 7717 8559 8192 8300 8006 7861 7476 7006 6858 6662 6946 34853 17492 17361 14.6 27.7 27.8 23.5 25.4 1.91 1.69 2.83 
+87518 7462 6860 8074 7813 8089 7425 7687 7231 6921 6845 6442 6669 30528 15363 15165 13.9 27.6 27.8 23.4 25.5 1.81 1.58 2.73 
+84507 7088 6676 7743 7515 7751 7083 7530 7007 6875 6734 6164 6341 28104 13661 14443 13.3 27.6 27.7 23.5 25.6 1.73 1.5 2.67 
+78464 6959 6581 7440 7217 7249 6797 6774 6053 6028 5765 5624 5977 22540 10720 11820 12.4 27.5 27.7 23.9 25.7 1.61 1.42 2.47 
+74199 6195 6352 6751 6482 6713 6663 6259 6109 6038 5606 5443 5588 17104 7506 9598 11.8 27.6 27.8 24 25.9 1.55 1.39 2.32 
+72829 6192 5907 6773 6370 6759 6379 6023 5940 5814 5770 5342 5560 17171 7950 9221 11.6 27.8 27.9 24.3 26.1 1.53 1.39 2.32 
+71375 6001 5688 6575 6390 6560 6252 6086 5675 5753 5628 5267 5500 13657 6197 7460 11.4 27.8 28 24.6 26.3 1.51 1.45 1.85 
+71986 6019 5654 6396 6497 6592 6195 6419 5836 5898 5640 5285 5555 14532 6709 7823 11.4 27.8 28 24.7 26.3 1.52 1.5 1.68 
+73661 6241 5999 6428 6353 6534 6261 6460 5920 6177 5933 5603 5752 14564 6870 7694 11.7 27.9 28 25.1 26.3 1.55 1.53 1.7 
+73747 6140 5829 6463 6438 6549 6320 6269 6180 6287 5888 5567 5817 13984 6865 7119 11.6 27.9 28 25.4 26.4 1.55 1.52 1.69 
+74916 6138 6001 6693 6594 6591 6211 6447 6377 6222 6049 5842 5751 15712 7577 8135 11.7 27.9 28.1 25.6 26.5 1.56 1.53 1.7 
+73659 6311 5974 6485 6144 6671 6163 6376 6231 6181 6035 5375 5713 12903 6355 6548 11.5 28 28.2 26 26.7 1.52 1.51 1.58 
+74710 6323 5998 6560 6039 6518 6282 6578 6298 6200 6176 5929 5809 16108 8077 8031 11.6 28.2 28.3 26.1 26.9 1.53 1.52 1.58 
+74684 6326 5774 6801 6452 6564 6148 6568 6199 6288 6196 5698 5670 15101 7031 8070 11.5 28.4 28.5 26.7 27 1.52 1.51 1.54 
+76320 6367 6038 6635 6655 6681 6425 6582 6558 6500 6106 5693 6080 16215 8024 8191 11.7 28.5 28.6 27 27.2 1.53 1.52 1.58 
+76505 6228 5780 6518 6609 6617 6643 6698 6326 6578 6261 6015 6232 16994 8447 8547 11.7 28.7 28.8 27.4 27.4 1.52 1.51 1.54 
+80345 6445 6471 7222 6511 6822 6651 6791 7013 6975 6665 6246 6533 19697 9942 9755 12.2 28.7 28.9 27.2 27.5 1.57 1.56 1.61 
+81180 6577 6100 7039 6751 7113 6962 7219 6900 6759 6503 6517 6740 20298 10329 9969 12.2 28.9 29 27.5 27.6 1.56 1.55 1.65 
+83939 6906 6506 7240 6958 7312 6987 7361 7067 7237 6956 6647 6762 20200 10422 9778 12.5 28.9 29 27.7 27.6 1.59 1.55 1.78 
+86200 6964 6641 7329 7271 7449 7162 7614 7179 7625 7026 6805 7135 23566 12248 11318 12.7 29 29.1 27.7 27.6 1.58 1.5 1.91 
+86910 7336 7037 7556 7397 7451 7195 7640 7176 7498 7068 6669 6887 24608 12748 11860 12.6 29.1 29.2 27.8 27.8 1.58 1.48 1.95 
+83762 7114 6646 7377 7187 6996 7113 7327 7120 7114 6817 6409 6542 21250 11492 9758 12.1 29.2 29.3 28.2 27.9 1.51 1.4 1.89 
+82980 6788 6553 7284 7039 7188 7028 7197 7060 6908 6745 6328 6862 20993 11366 9627 11.9 29.3 29.4 28.5 28 1.49 1.37 1.9 
+82203 6859 6377 7107 6585 7045 6878 7293 6988 7148 6997 6343 6583 18816 10462 8354 11.7 29.4 29.5 28.4 28.1 1.48 1.33 1.93 
+83007 6933 6711 6985 6726 7163 6961 7462 7039 6962 6818 6504 6743 20370 11929 8441 11.7 29.5 29.6 28.7 28.2 1.5 1.34 2.01 
+80584 6963 6293 6650 6918 6978 6859 7242 6714 6867 6527 6049 6524 17745 10640 7105 11.4 29.6 29.7 28.6 28.3 1.48 1.29 2.04 
+78949 6705 6056 6670 6764 6687 6531 6978 6841 6750 6498 6215 6254 16380 9421 6959 11.1 29.7 29.8 28.4 28.5 1.47 1.28 2.06 
+78408 6478 6181 6765 6523 6503 6649 6842 6867 6802 6375 6136 6287 15905 9816 6089 11 29.7 29.9 28.2 28.5 1.48 1.27 2.14 
+78458 6731 6329 6778 6538 6651 6456 6678 6725 6739 6263 6265 6305 15930 10002 5928 10.9 29.8 30 28.4 28.7 1.5 1.28 2.14 
+72295 6176 5581 6097 6071 6375 5991 6518 6173 6232 5886 5644 5551 11067 7248 3819 10 30 30.2 28.7 29 1.38 1.22 1.88 
+72372 5973 5590 6092 6066 6030 5932 6347 6351 6285 6210 5738 5758 10604 7589 3015 9.9 30.1 30.2 29 28.9 1.39 1.22 1.9 
+71848 6188 5441 5921 5876 6213 6057 6425 6019 6281 5955 5650 5822 8778 6617 2161 9.8 30.2 30.4 29 29.1 1.39 1.22 1.88 
+73082 6136 5582 5915 5833 6150 6221 6526 6399 6297 5954 6043 6026 12902 8353 4549 9.9 30.4 30.5 29.3 29.3 1.42 1.26 1.89 
+72903 5892 5670 5971 5949 6209 6147 6323 6330 6354 6140 5861 6057 11779 7864 3915 9.8 30.5 30.7 29.5 29.5 1.42 1.27 1.87 
+73371 6079 5625 6060 5800 6264 6187 6417 6327 6478 6376 5803 5955 13088 8546 4542 9.8 30.7 30.8 29.7 29.6 1.44 1.3 1.86 
+74494 6116 5480 6142 5983 6338 6133 6666 6665 6520 6361 5997 6093 13405 8651 4754 9.9 30.8 31 29.9 29.8 1.46 1.33 1.86 
+76691 6457 6091 6184 6364 6580 6528 6953 6457 6562 6326 5920 6269 15458 10086 5372 10 31 31.2 30.1 29.9 1.48 1.37 1.85 
+78286 6444 5834 6458 6499 6633 6576 6953 6886 6907 6396 6182 6518 15810 10379 5431 10.1 31.2 31.3 30.4 30.1 1.5 1.4 1.82 
+80290 6680 6095 6700 6379 6610 6744 6986 6843 7006 7106 6507 6634 17641 10828 6813 10.3 31.2 31.4 30.5 30.2 1.52 1.42 1.85 
+80808 6646 6131 6603 6492 6987 6922 7341 6943 7070 6767 6500 6406 18717 11532 7185 10.2 31.4 31.6 30.8 30.4 1.52 1.42 1.84 
+82164 6808 6413 6677 6518 6826 6811 7433 7278 7236 6993 6568 6603 17991 11738 6253 10.3 31.5 31.7 30.9 30.4 1.53 1.43 1.85 
+82731 6721 6091 6813 6594 7088 6853 7587 7358 7256 7098 6476 6796 17770 11338 6432 10.2 31.6 31.7 31 30.6 1.52 1.42 1.84 
+85287 7068 6404 6896 6902 7225 7153 7631 7382 7579 7373 6825 6849 21349 12900 8449 10.4 31.7 31.9 31.3 30.7 1.54 1.43 1.87 
+86559 7169 6402 7153 6984 7358 7436 7596 7506 7826 7298 6860 6971 18953 12003 6950 10.5 31.8 31.9 31.5 30.7 1.54 1.43 1.86 
+87883 7193 6791 7361 6830 7490 7489 7981 7749 7880 7354 6798 6967 22919 13649 9270 10.5 31.8 32 31.4 30.8 1.55 1.42 1.91 
+87381 7078 6610 7184 7059 7604 7369 7802 7659 7508 7447 7001 7060 20410 12467 7943 10.3 31.9 32 31.6 30.8 1.52 1.4 1.87 
+87851 7254 6512 7169 7014 7494 7521 8071 8054 7644 7365 6962 6791 20763 12617 8146 10.3 32 32.1 31.8 30.9 1.52 1.4 1.86 
+86172 7246 6398 7031 7124 7439 7332 7902 7485 7418 7168 6826 6803 18392 11368 7024 10 32.1 32.2 31.9 31.1 1.48 1.37 1.8 
+85914 7108 6738 7071 7060 7369 7324 7810 7375 7440 7250 6494 6875 9719 6674 3045 9.9 32.2 32.2 32 31.1 1.46 1.36 1.76; 
