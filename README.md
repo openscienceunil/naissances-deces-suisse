@@ -15,7 +15,7 @@ Le second permet d'avoir une visualisation plus globale et de montrer la répart
 
 Nous avons rajouté sur le graphique, une option permettant d'avoir le nombre exact de décès et de naissances au survol de la souris sur les différentes années. Nous avons également doté notre projet d'un bouton permettant de naviguer à travers les deux types de visualisations. 
 
-## Sources des données (description et liens) 
+## Source des données (description et liens) 
 
 Les données proviennent de l'Office fédéral de la statistique (OFS) de la Confédération : 
 - Décès : https://www.bfs.admin.ch/bfs/fr/home/statistiques/catalogues-banques-donnees/donnees.assetdetail.18584915.html 
