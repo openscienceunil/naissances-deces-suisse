@@ -20,6 +20,8 @@ Les données proviennent de l'Office fédéral de la statistique (OFS) de la Con
 - Décès : https://www.bfs.admin.ch/bfs/fr/home/statistiques/catalogues-banques-donnees/donnees.assetdetail.18584915.html 
 - Naissances : https://www.bfs.admin.ch/bfs/fr/home/statistiques/catalogues-banques-donnees/donnees.assetdetail.18584914.html 
 
+Les deux sets de données comprenenent des valeurs depuis 1803. Cependant, il est à noté que les sets de données de 1803 à 1876 ne sont pas complets et n'ont donc pas été pris en compte pour ce travail. 
+
 ## Public cible 
 
 Cette visualisation s'adresse tout d'abord à des personnes qui étudient la démographie, notamment des économistes, des politiques, des statisticiens et même des journalistes. Le projet s'adresse également à toutes personnes intéressées par le sujet.
