@@ -4,7 +4,7 @@
 ## Description
 
 Dans le cadre du cours de visualisation des données de M.Isaac Pante, nous avons établi les graphiques suivants : 
-Le premier est un histogramme qui permet de comparer le nombre de décès et de naissances en Suisse par année depuis 1877. Sur l'axe des abscisses, nous retrouvons les deux variables, soit les décès en rouge et les naissances en bleu. L'axe des ordonnées comprend, quant à lui, les valeurs et s'adapte en fonction de l'année choisie. En ayant les décès et les naissances côtes à côtes, cela permet une vision simple et claire sur l'évolution de la démographie par année. 
+Le premier est un histogramme qui permet de comparer le nombre de décès et de naissances en Suisse par année depuis 1877. Sur l'axe des abscisses, nous retrouvons les deux variables, soit les décès en rouge et les naissances en bleu. L'axe des ordonnées comprend, quant à lui, les valeurs et s'adapte en fonction de l'année choisie. Avoir les décès et les naissances côtes à côtes, nous permet d'avoir une vision simple et claire sur l'évolution de la démographie par année. 
 Vous trouverez ci-dessous la répartition de l'année 1964, bien représentative de la différence entre les naissances et les décès. Le fort taux de natalité s'explique par le baby boom suivant la seconde guerre mondiale. 
 
 <img width="991" alt="Capture d’écran 2022-05-26 à 10 50 47" src="https://user-images.githubusercontent.com/82398045/170454203-1fe7974c-db95-4bda-8ae4-4c34254d6fa7.png">
