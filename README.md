@@ -21,7 +21,7 @@ Les données proviennent de l'Office fédéral de la statistique (OFS) de la Con
 - Décès : https://www.bfs.admin.ch/bfs/fr/home/statistiques/catalogues-banques-donnees/donnees.assetdetail.18584915.html 
 - Naissances : https://www.bfs.admin.ch/bfs/fr/home/statistiques/catalogues-banques-donnees/donnees.assetdetail.18584914.html 
 
-Les deux sets de données comprenenent des valeurs depuis 1803. Cependant, il est à noté que les sets de données de 1803 à 1876 ne sont pas complets, nous les avons donc représentées avec un autre code couleur, en vert les naissances et en orange les décès. Les années 1877 à 2020 sont quant à elle complètes et représentées en rouge et bleu.
+Les deux sets de données comprenenent des valeurs depuis 1803. Cependant, il est à noté que les sets de données de 1803 à 1876 ne sont pas complets, nous les avons donc représentés avec un autre code couleur, en vert les naissances et en orange les décès. Les années 1877 à 2020 sont quant à elle complètes et représentées en rouge et bleu.
 
 ## Public cible 
 
