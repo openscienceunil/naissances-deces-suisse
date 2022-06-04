@@ -7,7 +7,8 @@ Dans le cadre du cours de visualisation des données de M.Isaac Pante, nous avon
 Le premier est un histogramme qui permet de comparer le nombre de décès et de naissances en Suisse par année depuis 1877. Sur l'axe des abscisses, nous retrouvons les deux variables, soit les décès en rouge et les naissances en bleu. L'axe des ordonnées comprend, quant à lui, les valeurs et s'adapte en fonction de l'année choisie. Avoir les décès et les naissances côtes à côtes, nous permet d'avoir une vision simple et claire sur l'évolution de la démographie par année. 
 <br>Vous trouverez ci-dessous la répartition de l'année 1964, une année bien représentative de la différence entre les naissances et les décès. Le fort taux de natalité s'explique par le baby boom suivant la seconde guerre mondiale. 
 
-<img width="991" alt="Capture d’écran 2022-05-26 à 10 50 47" src="https://user-images.githubusercontent.com/82398045/170454203-1fe7974c-db95-4bda-8ae4-4c34254d6fa7.png">
+<img width="1080" alt="Capture d’écran 2022-06-04 à 09 34 36" src="https://user-images.githubusercontent.com/82398045/171991077-ef272291-782c-4ed4-83e5-f908c263fc38.png">
+
 
 Le second permet d'avoir une visualisation plus globale et de montrer la répartition des naissances et des dècès sur environ 150 ans. Ainsi, les valeurs extrêmes se démarquent et nous permettent de réfléchir sur les évenements qui ont pu impacter l'une ou l'autre de nos variables. Par exemple, nous pouvons voir que le pic de mortalité se trouve en 1918. Cela s'explique par la grippe espagnole qui a tué de plus 70'000 personnes en Suisse. 
 
@@ -21,7 +22,7 @@ Les données proviennent de l'Office fédéral de la statistique (OFS) de la Con
 - Décès : https://www.bfs.admin.ch/bfs/fr/home/statistiques/catalogues-banques-donnees/donnees.assetdetail.18584915.html 
 - Naissances : https://www.bfs.admin.ch/bfs/fr/home/statistiques/catalogues-banques-donnees/donnees.assetdetail.18584914.html 
 
-Les deux sets de données comprenenent des valeurs depuis 1803. Cependant, il est à noté que les sets de données de 1803 à 1876 ne sont pas complets et n'ont donc pas été pris en compte pour ce travail. 
+Les deux sets de données comprenenent des valeurs depuis 1803. Cependant, il est à noté que les sets de données de 1803 à 1876 ne sont pas complets, nous les avons donc représentées avec un autre code couleur, en vert les naissances et en orange les décès. Les années 1877 à 2020 sont quant à elle complètes et représentées en rouge et bleu.
 
 ## Public cible 
 
