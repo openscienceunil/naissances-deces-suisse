@@ -7,14 +7,11 @@ Dans le cadre du cours de visualisation des données de M.Isaac Pante, nous avon
 Le premier est un histogramme qui permet de comparer le nombre de décès et de naissances en Suisse par année depuis 1877. Sur l'axe des abscisses, nous retrouvons les deux variables, soit les décès en rouge et les naissances en bleu. L'axe des ordonnées comprend, quant à lui, les valeurs et s'adapte en fonction de l'année choisie. Avoir les décès et les naissances côtes à côtes, nous permet d'avoir une vision simple et claire sur l'évolution de la démographie par année. 
 <br>Vous trouverez ci-dessous la répartition de l'année 1964, une année bien représentative de la différence entre les naissances et les décès. Le fort taux de natalité s'explique par le baby boom suivant la seconde guerre mondiale. 
 
-
-<img width="981" alt="Capture d’écran 2022-06-04 à 10 22 21" src="https://user-images.githubusercontent.com/82398045/171991188-eb78f945-e4b4-4bbb-a1a8-d70f5794acf7.png">
-
+<img width="942" alt="Capture d’écran 2022-06-04 à 10 23 06" src="https://user-images.githubusercontent.com/82398045/171991227-c498f3ed-902b-40d1-9e5c-8c595da0a22b.png">
 
 Le second permet d'avoir une visualisation plus globale et de montrer la répartition des naissances et des dècès sur environ 150 ans. Ainsi, les valeurs extrêmes se démarquent et nous permettent de réfléchir sur les évenements qui ont pu impacter l'une ou l'autre de nos variables. Par exemple, nous pouvons voir que le pic de mortalité se trouve en 1918. Cela s'explique par la grippe espagnole qui a tué de plus 70'000 personnes en Suisse. 
 
 <img width="1080" alt="Capture d’écran 2022-06-04 à 09 34 36" src="https://user-images.githubusercontent.com/82398045/171991156-68372dff-5932-4b5b-8143-d262b5d0ae88.png">
-
 
 Nous avons rajouté sur le graphique, une option permettant d'avoir le nombre exact de décès et de naissances au survol de la souris sur les différentes années. Nous avons également doté notre projet d'un bouton permettant de naviguer à travers les deux types de visualisations. 
 
