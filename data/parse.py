@@ -23,7 +23,8 @@ def traiter_px(filename):
 	df.columns = df.columns.map(lambda t: t[1])
 	df = df.rename(columns = colonnes_traductions)
 	df = df[colonnes_a_garder] # garder seulement les valeurs mensuelles et le total annuel
-	df = df.iloc[1877-1803: , :] # garder seulement les valeurs dès 1877 (début du détail mensuel)
+	df = df.replace('"..."','')
+	#df = df.iloc[1877-1803: , :] # garder seulement les valeurs dès 1877 (début du détail mensuel)
 	df.to_csv(filename + ".csv")
 	return df
 
