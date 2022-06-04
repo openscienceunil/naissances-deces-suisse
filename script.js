@@ -1,10 +1,12 @@
 var svg = d3.select('svg');
 
-var width = +svg.attr('width');
-var height = +svg.attr('height');
+var width = svg.attr('width');
+var height = svg.attr('height');
 
 const births_color = "lightblue";
 const deaths_color = "red";
+const births_color_warning = "lightgreen";
+const deaths_color_warning = "orange";
 
 let data = [];
 
@@ -12,11 +14,13 @@ function renderSingle(datapoint) {
 	const graphData = [
 		{
 			title: "Naissances",
-			value: +datapoint.births
+			value: datapoint.births,
+			good_data: datapoint.good_data
 		},
 		{
 			title: "Décès",
-			value: +datapoint.deaths
+			value: datapoint.deaths,
+			good_data: datapoint.good_data
 		}
 	]
 	
@@ -40,7 +44,7 @@ function renderSingle(datapoint) {
 		.attr("x", width / 2)
 		.attr("y", margin.top / 2)
 		.attr("text-anchor", "middle")
-		.style("font-size", "20px")
+		.style("font-size", "28px")
 		.style("font-weight", "bold")
 		.style("text-decoration", "underline")
 		.text("Naissances vs décès en Suisse en " + datapoint.year);
@@ -61,7 +65,24 @@ function renderSingle(datapoint) {
 		.attr('x', d => xScale(d.title))
 		.attr('height', d => innerHeight-yScale(d.value))
 		.attr('width', xScale.bandwidth())
-		.style('fill', d => d.title == "Naissances" ? births_color : deaths_color)
+		.style('fill', d => {
+			if (d.title == "Naissances") {
+				if (d.good_data) {
+					return births_color;
+				}
+				else {
+					return births_color_warning;
+				}
+			}
+			else {
+				if (d.good_data) {
+					return deaths_color;
+				}
+				else {
+					return deaths_color_warning;
+				}
+			}
+		})
 		.style('opacity', .7);
 }
 
@@ -83,7 +104,7 @@ function renderTotal(data) {
 	
 	// échelle des y
 	const yScale = d3.scaleLinear()
-		.domain([d3.max(data, d => d.births), 0])
+		.domain([d3.max(data, d => Math.max(d.births, d.deaths)), 0])
 		.range([0, innerHeight]);
 	
 	// titre
@@ -91,10 +112,10 @@ function renderTotal(data) {
 		.attr("x", width / 2)
 		.attr("y", margin.top / 2)
 		.attr("text-anchor", "middle")
-		.style("font-size", "20px")
+		.style("font-size", "28px")
 		.style("font-weight", "bold")
 		.style("text-decoration", "underline")
-		.text("Visualisation 1877 - 2020");
+		.text("Visualisation 1803 - 2020");
 
 	// espacement
 	const g = svg.append('g')
@@ -110,12 +131,12 @@ function renderTotal(data) {
 					.domain()
 					.filter(function(year, i) 
 			{
-			return ((!(year % 5)) || (i == (data.length-1)));
+			return ((!(year % 10)) || (i == (data.length-1)));
 		})))
 		.attr('transform', `translate(0,${innerHeight})`);
 
 	// Elément pour la box de légende
-	var div = svg.append("g")
+	let div = svg.append("g")
 		.attr("class", "tooltip")
 		.style("opacity", 0);
 	div.append("rect").attr("id","box").attr("class","box")
@@ -128,14 +149,19 @@ function renderTotal(data) {
 	divtext.append("tspan").attr("id","legendA").attr('x', "0.1em").attr('dy', "0.9em");
 	divtext.append("tspan").attr("id","legendB").attr('x', "0.1em").attr('dy', "1.3em");
 	
+	let barPositions = [];
 	// dessiner les barres verticales
 	let container = g.selectAll('rect').data(data).enter();
 	container.append('rect')
 		.attr('y', d => yScale(d.births))
-		.attr('x', d => xScale(d.year))
+		.attr('x', d => { 
+			let xPos = xScale(d.year);
+			barPositions[d.year] = xPos;
+			return xPos;
+		})
 		.attr('height', d => innerHeight-yScale(d.births))
 		.attr('width', xScale.bandwidth())
-		.style('fill', births_color)
+		.style('fill', d => d.good_data ? births_color : births_color_warning)
 		.style('opacity', .6)
 		.on("mouseover", function(event, d) {
 			d3.select(this)
@@ -163,7 +189,7 @@ function renderTotal(data) {
 		.attr('height', d => innerHeight-yScale(d.deaths))
 		.attr('width', xScale.bandwidth())
 		.attr('value', d => d.deaths)
-		.style('fill', deaths_color)
+		.style('fill', d => d.good_data ? deaths_color : deaths_color_warning)
 		.style('opacity', .4)
 		.on("mouseover", function(event, d) {
 			d3.select(this)
@@ -218,8 +244,9 @@ async function charger() {
 	return await d3.csv('data/final.csv', function(d) {
 		return {
 			year: d.year, 
-			births: +d.births_total,
-			deaths: +d.deaths_total,
+			births: d.births_total,
+			deaths: d.deaths_total,
+			good_data: d.year >= 1877
 		}
 	});
 }
